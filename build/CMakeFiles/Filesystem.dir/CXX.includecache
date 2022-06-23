@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/smraty/lbrtrn/liberty_backend/filesystem.cpp
+string
+-
+iostream
+-
+set
+-
+fstream
+-
+jsoncpp/json/json.h
+-
+experimental/filesystem
+-
+fastcgi++/request.hpp
+-
+fastcgi++/manager.hpp
+-
+
